@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Rails API that contains Users, Posts and Comments.
 
-Things you may want to cover:
+Associations
+User has many post
+User has many comment
+Post has many comment
+Comment belongs to user and post
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Comment also has a non-foreign key column that is called comment_id in case this comment is a reply.
