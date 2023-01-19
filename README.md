@@ -2,7 +2,7 @@
 
 Simple Rails API that contains Users, Posts and Comments.
 
-Associations
+Associations:
 User has many post
 User has many comment
 Post has many comment
